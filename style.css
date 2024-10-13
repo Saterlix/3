@@ -1,0 +1,69 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+
+}
+
+/* 
+
+display:flex; - включает технологию flexbox и ставит все дочерние элементы в ряд
+flex-wrap:wrap - говорит чтобы все дочерние элементы приняли свои оригинальные размеры
+justify-content - перемещает дочерние элементы по горизонтальной оси
+align-items - перемещает дочерние элементы по вертикальной оси
+align-content - можно использовать когда у вас более одного ряда и он перемещает ваши ряды по вертикальной оси
+flex-direction: column - меняет наши оси на противоположную сторону
+*/
+
+.container {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    align-items: self-start;
+    align-content: space-between;
+    background-image: url(https://avatars.mds.yandex.net/i?id=197b6613e2422f07f3cb0179bd7dfdb193dcce16-5676890-images-thumbs&n=13);
+}
+
+.item {
+    width: 250px;
+    height: 150px;
+    border: 1px solid red;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column-reverse;
+   background-image: url(https://avatars.mds.yandex.net/i?id=d51f34c74eeafd6bab2066d1d389b49c_sr-10876589-images-thumbs&n=13);
+   color: magenta;
+}
+.on{
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: lime;
+    align-content: center;
+    
+}
+.body{
+    background-color: blue;
+}
+.back{
+    margin: 1px;
+    padding: 1px;
+    flex-wrap: wrap;
+    width: 50px;
+    height: 50px;
+}
+.but{
+    margin: 1px;
+    padding: 1px;
+    color: black;
+    background-color: turquoise;
+    
+}
