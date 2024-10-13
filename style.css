@@ -61,9 +61,8 @@ flex-direction: column - меняет наши оси на противопол�
     height: 50px;
 }
 .but{
-    margin: 1px;
-    padding: 1px;
+    
     color: black;
-    background-color: turquoise;
+    background-color: rgb(251, 8, 0);
     
 }
